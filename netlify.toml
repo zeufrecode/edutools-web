@@ -1,0 +1,6 @@
+[build]
+  command = "pnpm build"
+  publish = ".next"  # Le plugin Next.js va gérer le rendu SSR/SSG
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

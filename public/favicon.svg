@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 200 200">
+  <!-- Cercle de fond -->
+  <circle cx="100" cy="100" r="90" fill="#C27AFF" />
+  
+  <!-- Livre stylisé -->
+  <path d="M60 60 L60 140 Q80 130 100 140 Q120 130 140 140 L140 60 Q120 70 100 60 Q80 70 60 60 Z" 
+        fill="#ffffff" stroke="#6B21A8" stroke-width="3"/>
+  
+  <!-- Rouage simplifié (au-dessus du livre) -->
+  <circle cx="100" cy="70" r="15" fill="#C27AFF" stroke="#ffffff" stroke-width="3"/>
+  <path d="M100 50 v-10 M100 90 v10 M80 70 h-10 M120 70 h10 M85 55 l-7 -7 M115 85 l7 7 M85 85 l-7 7 M115 55 l7 -7" 
+        stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- Texte -->
+  <text x="100" y="175" font-size="22" font-family="Arial, sans-serif" 
+        text-anchor="middle" fill="#ffffff" font-weight="bold">Edutools</text>
+</svg>
